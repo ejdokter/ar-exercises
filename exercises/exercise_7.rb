@@ -10,3 +10,8 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+new_store = "Calgary"
+calgary = Store.create(name: new_store)
+puts calgary.errors.full_messages
+
+@store1.employees.create().errors.full_messages
